@@ -1,0 +1,32 @@
+{
+	"files.associations": {
+		"buf.h": "c",
+		"condition_variable.h": "c",
+		"heapam.h": "c",
+		"streambuf": "c",
+		"array": "c",
+		"bitset": "c",
+		"string_view": "c",
+		"initializer_list": "c",
+		"utility": "c",
+		"explain.h": "c",
+		"prepare.h": "c",
+		"hap_am.h": "c",
+		"hap_trigger.h": "c",
+		"pandora_relation_meta.h": "c",
+		"locator_partition_mgr.h": "c",
+		"locator_partitioning.h": "c",
+		"postgres.h": "c",
+		"guc.h": "c",
+		"locator_external_catalog.h": "c",
+		"syscache.h": "c",
+		"locator.h": "c",
+		"bufpage.h": "c",
+		"pg_bitutils.h": "c",
+		"optimizer.h": "c",
+		"snapshot.h": "c",
+		"ebi_tree.h": "c",
+		"ebi_tree_process.h": "c"
+	},
+	"C_Cpp.errorSquiggles": "enabled"
+}
