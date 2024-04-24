@@ -229,7 +229,7 @@ def run_benchmark(args):
 
 			iostat_requests.close()
 
-		os.system("mv ./iostat.json %s"%(directory))
+			os.system("mv ./iostat.json %s"%(directory))
 
 		# Statistics the tpm
 		with open("%s/hdbtcount.log"%(directory), "r") as f:
