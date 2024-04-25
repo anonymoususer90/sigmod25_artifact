@@ -1,0 +1,65 @@
+# Global excludes across all subdirectories
+*.o
+*.obj
+*.bc
+*.so
+*.so.[0-9]
+*.so.[0-9].[0-9]
+*.so.[0-9].[0-9][0-9]
+*.sl
+*.sl.[0-9]
+*.sl.[0-9].[0-9]
+*.sl.[0-9].[0-9][0-9]
+*.dylib
+*.dll
+*.exp
+*.a
+*.mo
+*.pot
+objfiles.txt
+.deps/
+*.gcno
+*.gcda
+*.gcov
+*.gcov.out
+lcov*.info
+coverage/
+coverage-html-stamp
+*.vcproj
+*.vcxproj
+win32ver.rc
+*.exe
+lib*dll.def
+lib*.pc
+
+# Local excludes in root directory
+/PostgreSQL/postgres/GNUmakefile
+/PostgreSQL/postgres/config.cache
+/PostgreSQL/postgres/config.log
+/PostgreSQL/postgres/config.status
+/PostgreSQL/postgres/pgsql.sln
+/PostgreSQL/postgres/pgsql.sln.cache
+/PostgreSQL/postgres/Debug/
+/PostgreSQL/postgres/Release/
+/PostgreSQL/postgres/tmp_install/
+/PostgreSQL/postgres/portlock/
+/PostgreSQL/pgsql
+*.swp
+
+# Cscope files
+cscope.*
+
+# Ctag files
+tags
+
+# Vscode config files
+/PostgreSQL/postgres/.vscode/
+
+# CH-benCHmark
+/chbenchmark/results/
+
+# evaluation
+/evaluation/HTAP_results/
+/evaluation/figure_12_a.eps
+/evaluation/figure_12_b.eps
+/evaluation/figure_12_c.eps
